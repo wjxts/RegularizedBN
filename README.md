@@ -12,7 +12,8 @@ Install [PyTorch](http://pytorch.org/) (we use Python=3.6 and PyTorch=1.7.1, hig
 ```bash
 conda create -n rbn python=3.6
 conda activate rbn
-conda install pytorch==1.7.1 torchvision torchaudio cudatoolkit=11.0 -c pytorch
+conda install pytorch==1.7.1 torchvision torchaudio cudatoolkit=11.0 -c pytorch (or pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+)
 ```
 Install fairseq by:  
 
