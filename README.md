@@ -1,5 +1,5 @@
 
-We present the code and instructions to reproduce our NeurIPS 2022 paper  [**"Understanding the Failure of Batch Normalization for Transformers in NLP"**](https://arxiv.org/abs/2210.05153) on neural machine translation experiments.   
+We present the code and instructions to reproduce our NeurIPS 2022 **Spotlight** paper  [**"Understanding the Failure of Batch Normalization for Transformers in NLP"**](https://arxiv.org/abs/2210.05153) on neural machine translation experiments.   
 For other tasks, you can easily modify the normalization module in [language modeling](https://github.com/szhangtju/The-compression-of-Transformer), [named entity recognition](https://github.com/fastnlp/TENER), [text classification](https://github.com/declare-lab/identifiable-transformers) to reproduce the corresponding results. For the reason of license, we do not include them here. We are still appending new features. 
 
 The codes are based on [fairseq](https://github.com/pytorch/fairseq) (v0.9.0)
